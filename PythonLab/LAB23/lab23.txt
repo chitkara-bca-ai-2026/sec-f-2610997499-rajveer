@@ -1,0 +1,15 @@
+
+Lab Reflection:
+
+1. Approach:
+Stored each student as one line in the format Name Marks. init_file() creates
+the file with 3 sample records only if it doesn't exist. store_student() opens
+the file in append mod  and writes the new record, so old records are kept.
+
+2. Errors Faced:
+No errors faced.
+
+3. Output:
+With the 3 sample records the ledger showed total marks 255 and class average
+85.00. Added Neha with 88 marks, and the ledge then showed 4 students, total
+343 and average 85.75.
