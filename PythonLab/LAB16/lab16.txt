@@ -1,0 +1,16 @@
+
+Lab Reflection:
+
+1. Approach:
+Wrote a separate function for each operation. 
+power() has a default exponent of 2, so it squares a number if no exponent is given. 
+The menu runs in a while loop with 8 options. 
+Each result is stored as a string in a history list and shown with option 7.
+
+2. Errors Faced:
+No errors faced.
+
+3. Output:
+Tested every operation with 5 and 3. Addition done. Division by
+0 printed eror instead of crashing. The history option listed all the
+calculations done so far.
