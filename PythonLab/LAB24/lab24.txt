@@ -1,0 +1,15 @@
+
+Lab Reflection:
+
+1. Approach:
+Used the csv module.   init_csv() creates the CSV with a header row and 6 student rows only if the file doesn't exist.
+To read it I used csv.DictReader, so each row is a dictionary and I can use column names like row instead
+of index numbers. The threshold defaults to 50.
+The menu runs in a while loop with 3 options.
+
+2. Errors Faced:
+No errors faced.
+
+3. Output:
+Option 1 showed all 6 students with a total of 6 records. Option 2 showed the
+students with marks above 50.
