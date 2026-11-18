@@ -1,0 +1,14 @@
+
+Lab Reflection:
+
+1. Approach:
+Used append mode in append_entry() so a new entry is added to the end of
+the file without deleting the old ones. int_log() creates the file with 3 sample entries only if it doesn't exist yet, 
+so existing content is never wiped.
+
+2. Errors Faced:
+No errors faced.
+
+3. Output:
+Tested option 2 first and it showed the 3 sample entries with a total of 3.
+Added a new entry with option 1, then displayed the log again and it showed 4 entries with the old ones still there.
