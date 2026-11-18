@@ -1,0 +1,13 @@
+Lab Reflection:
+
+1. Approach:
+Made a list called inventory with 4 starting items (Notebook, Pen, Eraser, Ruler) and ran a while True loop with a menu of 5 options. 
+Option 1 prints the items using enumerate(inventory, 1) so the numbering starts from 1.
+Option 2 uses append() to add a new item.
+
+2. Errors Faced:
+No errors faced.
+
+3. Output:
+Tested all 5 options. Added an item, removed one, tried removing an item that wasn't there and sorted the list. 
+After sorting, the items printed in alphabetical order.
