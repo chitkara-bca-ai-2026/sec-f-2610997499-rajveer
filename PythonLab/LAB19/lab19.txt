@@ -1,0 +1,13 @@
+
+Lab Reflection:
+
+1. Approach:
+Wrote two functions. read_notes() first checks os.path.exists() and only then opens the file in 'r' mode and returns the content, 
+otherwise it returns an inf message so the program doesn't crash on a missing file.
+
+2. Errors Faced:
+No errors faced.
+
+3. Output:
+Tested viewing notes before saving anything and got the "No notes file exists
+yet" message.
