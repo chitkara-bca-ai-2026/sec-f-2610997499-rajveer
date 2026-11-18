@@ -1,0 +1,17 @@
+
+Lab Reflection:
+
+1. Approach:
+Used a dictionary of dictionaries to store the students. The outer key is the
+roll number and the value is another dictionary with Name, Branch, Semester and
+a list of Marks. The menu runs in a while True loop with 7 options. 
+For searching I used .get(), which returns None instead of crashing when the roll number doesn't exist. 
+Delete uses pop(roll, None) so it doesn't crash on a missing roll number.
+
+2. Errors Faced:
+No errors faced.
+
+3. Output:
+Tested all 7 options. View All showed the 3 starting students.
+The academic report for roll 101 showed total 253/300, average 84.33% and result PASS.
+Deleted a record and it was removed from the list.
