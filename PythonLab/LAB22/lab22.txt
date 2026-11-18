@@ -1,0 +1,14 @@
+
+Lab Reflection:
+
+1. Approach:
+search_keyword() reads the file line by line using enumerate to track line numbers. 
+At the end it prints the total or a "not found" message. 
+init_report() creates the file with 4 lines of sample text only if it doesn't exist yet. The menu runs in a while loop with 3 options.
+
+2. Errors Faced:
+No errors faced.
+
+3. Output:
+Searched Python and it matched lines 3 and 4 with a total of 2. 
+Searched AI and it matched line 2 only, total 1.
