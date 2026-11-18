@@ -1,0 +1,14 @@
+
+Lab Reflection:
+
+1. Approach:
+get_document_statistics() reads the whole file and returns a tuple. 
+Lines are counte with splitlines(), words with split() and characters with len() on
+the full text.
+
+2. Errors Faced:
+No errors faced.
+
+3. Output:
+With my sample text the report showed 4 lines, 47 words and 252 characters.
+Option 2 printed the 4 lines with line numbers 1 to 4.
