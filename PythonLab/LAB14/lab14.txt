@@ -1,0 +1,14 @@
+Lab Reflection:
+
+1. Approach:
+Stored the books as a list of tuples, where each tuple is (title, author, year,
+category). I used tuples because a book's details are fixed and shouldn't change once cataloged. 
+The menu runs in a while True loop with 6 options: view books, add a new book, view unique categories, add to the wishlist, run the gap analysis, and exit.
+ For the gap analysis I used set operations. for categories the library needs to buy, and | (union) for the full combined
+
+2. Errors Faced:
+No errors faced.
+
+3. Output:
+Tested all 6 options. The catalog showed 4 books and 3 unique categories. 
+The gap analysis gave AI as already in stock, and Cloud Computing, Cybersecurity and Robotics as needing a purchase order.
