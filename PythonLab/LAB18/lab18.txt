@@ -1,0 +1,13 @@
+
+Lab Reflection:
+
+1. Approach:
+Wrote two recursive functions. factoril(n) returns non for negative numbers, returns 1 when n is 0 or 1.
+In main() I take a number for the factorial, then loop from 0 to limit-1 and call fibonacci(i) to print the
+series on one line.
+
+2. Errors Faced:
+No errors faced.
+
+3. Output:
+Tested with 5 for the factorial and 7 terms for Fibonacci. Factorial of 5 and the series printed.
